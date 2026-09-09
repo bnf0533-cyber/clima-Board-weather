@@ -1,0 +1,26 @@
+GEMINI.md
+.venv
+
+venv/
+.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+backend/app.log
+*.log
+
+# Node & Frontend Build
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+.env
+.env.local
+.vscode/
+.idea/
+
+.DS_Store
+Thumbs.db
+GEMINI.md
+project_requirements.txt

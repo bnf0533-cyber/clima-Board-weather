@@ -1,0 +1,71 @@
+/* Compare Page */
+.compare-page h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: #0f172a;
+}
+
+.compare-inputs {
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.compare-inputs input {
+    flex: 1;
+    min-width: 180px;
+    padding: 0.8rem 1.2rem;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.compare-inputs span {
+    font-weight: 700;
+    color: #64748b;
+}
+
+.compare-inputs button {
+    background: #0284c7;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.comparesResult {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.compare-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-top: 4px solid #0284c7;
+}
+
+.compare-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #0f172a;
+}
+
+.compare-card p {
+    font-size: 1.05rem;
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 640px) {
+    .comparesResult {
+        grid-template-columns: 1fr;
+    }
+}

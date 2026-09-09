@@ -1,0 +1,58 @@
+/* Welcome Page */
+.div-welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    text-align: center;
+    padding: 2rem;
+}
+
+.div-title-welcome h2 {
+    font-size: 2.2rem;
+    color: #0f172a;
+    margin-bottom: 2rem;
+    line-height: 1.3;
+}
+
+.div-input-welcome {
+    margin-bottom: 1.5rem;
+    width: 100%;
+    max-width: 380px;
+}
+
+.input-welcome-name {
+    width: 100%;
+    padding: 0.9rem 1.2rem;
+    border: 2px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-welcome-name:focus {
+    border-color: #0284c7;
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+}
+
+.btn-welcome {
+    background: #0284c7;
+    color: white;
+    border: none;
+    padding: 0.9rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.btn-welcome:hover {
+    background: #0369a1;
+}
+
+.btn-welcome:active {
+    transform: scale(0.98);
+}
